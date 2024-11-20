@@ -8,5 +8,7 @@ Penjelasan
 Pertama tama kita deklarasiin variable minimum balance dengan public static dengan nilai yang gak bisa di ubah. Teruskita ubah jadi  if (amount <= account.getBalance() - Account.MINIMUM_BALANCE) supaya jumlah transaksi (amount) tidak melebihi saldo yang tersedia di akun (account.getBalance()), dikurangi saldo minimum (Account.MINIMUM_BALANCE). Jika true, metode account.debit(amount) akan mengurangi saldo akun sebesar amount. Terus kasih else Jika gak true nanti menyampaikan pesan saldo tidak cukup
 
 ![hasil run](https://github.com/user-attachments/assets/4008346a-41ad-41cb-a90a-90a93e358d76)
+![hasil run1](https://github.com/user-attachments/assets/83aba5dc-6557-40b8-a533-11eaf8c239b2)
+
 
 
